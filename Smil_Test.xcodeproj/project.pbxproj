@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44533A8D5DD1C3073ADA16C3 /* Pods_Smil_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EDAA64ED4415B03A5C0B1B /* Pods_Smil_Test.framework */; };
+		9545A6C32750DE2100770727 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545A6C22750DE2100770727 /* FirstViewController.swift */; };
 		95C65B66274F865400D56F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C65B65274F865400D56F09 /* AppDelegate.swift */; };
 		95C65B68274F865400D56F09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C65B67274F865400D56F09 /* SceneDelegate.swift */; };
 		95C65B6A274F865400D56F09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C65B69274F865400D56F09 /* ViewController.swift */; };
 		95C65B6D274F865400D56F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C65B6B274F865400D56F09 /* Main.storyboard */; };
 		95C65B6F274F865700D56F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C65B6E274F865700D56F09 /* Assets.xcassets */; };
 		95C65B72274F865700D56F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C65B70274F865700D56F09 /* LaunchScreen.storyboard */; };
+		95C65B7A274F8E4A00D56F09 /* SmileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C65B79274F8E4A00D56F09 /* SmileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9545A6C22750DE2100770727 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		95C65B62274F865400D56F09 /* Smil_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smil_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C65B65274F865400D56F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C65B67274F865400D56F09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		95C65B6E274F865700D56F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95C65B71274F865700D56F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95C65B73274F865700D56F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C65B79274F8E4A00D56F09 /* SmileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileViewController.swift; sourceTree = "<group>"; };
+		A553D014EB48D1B0EC6B3457 /* Pods-Smil_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smil_Test.debug.xcconfig"; path = "Target Support Files/Pods-Smil_Test/Pods-Smil_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		C0EDAA64ED4415B03A5C0B1B /* Pods_Smil_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smil_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C320944075D5367C9019EE /* Pods-Smil_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smil_Test.release.xcconfig"; path = "Target Support Files/Pods-Smil_Test/Pods-Smil_Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44533A8D5DD1C3073ADA16C3 /* Pods_Smil_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26C7781B8202649E8CCFD396 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A553D014EB48D1B0EC6B3457 /* Pods-Smil_Test.debug.xcconfig */,
+				F7C320944075D5367C9019EE /* Pods-Smil_Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		80B06C09EA21FF6C274E02AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDAA64ED4415B03A5C0B1B /* Pods_Smil_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		95C65B59274F865400D56F09 = {
 			isa = PBXGroup;
 			children = (
 				95C65B64274F865400D56F09 /* Smil_Test */,
 				95C65B63274F865400D56F09 /* Products */,
+				26C7781B8202649E8CCFD396 /* Pods */,
+				80B06C09EA21FF6C274E02AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +86,9 @@
 			children = (
 				95C65B65274F865400D56F09 /* AppDelegate.swift */,
 				95C65B67274F865400D56F09 /* SceneDelegate.swift */,
+				9545A6C22750DE2100770727 /* FirstViewController.swift */,
 				95C65B69274F865400D56F09 /* ViewController.swift */,
+				95C65B79274F8E4A00D56F09 /* SmileViewController.swift */,
 				95C65B6B274F865400D56F09 /* Main.storyboard */,
 				95C65B6E274F865700D56F09 /* Assets.xcassets */,
 				95C65B70274F865700D56F09 /* LaunchScreen.storyboard */,
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95C65B76274F865700D56F09 /* Build configuration list for PBXNativeTarget "Smil_Test" */;
 			buildPhases = (
+				4B4F75114027E06AB2909C95 /* [CP] Check Pods Manifest.lock */,
 				95C65B5E274F865400D56F09 /* Sources */,
 				95C65B5F274F865400D56F09 /* Frameworks */,
 				95C65B60274F865400D56F09 /* Resources */,
+				93C15F30F6E27A4CCC7FD76E /* [CP] Embed Pods Frameworks */,
+				71F165B07F4C6045B0A91F38 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,12 +166,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B4F75114027E06AB2909C95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smil_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71F165B07F4C6045B0A91F38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smil_Test/Pods-Smil_Test-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smil_Test/Pods-Smil_Test-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smil_Test/Pods-Smil_Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C15F30F6E27A4CCC7FD76E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smil_Test/Pods-Smil_Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smil_Test/Pods-Smil_Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smil_Test/Pods-Smil_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95C65B5E274F865400D56F09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9545A6C32750DE2100770727 /* FirstViewController.swift in Sources */,
 				95C65B6A274F865400D56F09 /* ViewController.swift in Sources */,
+				95C65B7A274F8E4A00D56F09 /* SmileViewController.swift in Sources */,
 				95C65B66274F865400D56F09 /* AppDelegate.swift in Sources */,
 				95C65B68274F865400D56F09 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,12 +378,14 @@
 		};
 		95C65B77274F865700D56F09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A553D014EB48D1B0EC6B3457 /* Pods-Smil_Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52MTVQAA2V;
+				DEVELOPMENT_TEAM = XK6PN28ZXW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Smil_Test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,13 +393,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-123.Smil-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aprivacy.beoneStage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = beoneStage_develop;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +410,14 @@
 		};
 		95C65B78274F865700D56F09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C320944075D5367C9019EE /* Pods-Smil_Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 52MTVQAA2V;
+				DEVELOPMENT_TEAM = XK6PN28ZXW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Smil_Test/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,13 +425,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-123.Smil-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aprivacy.beoneStage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = beoneStage_develop;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
